@@ -14,7 +14,7 @@
     <h1>Hello, I'm Prune Mamalet. </h1>
     <h2>I'm currently studying at ENSEEIHT in the digital sciences department.</h2>
     <p>
-      Welcome on my e-portefolio !
+      Welcome on my e-portfolio !
     </p>
   </main>
 </div>
@@ -33,7 +33,7 @@
       <img src="https://upload.wikimedia.org/wikipedia/commons/4/4e/Gmail_Icon.png" alt="Email" class="icon" />
       prunemamalet31240@gmail.com
     </a>
-    <a class="contact-card" href="/Portefolio/CVs.pdf" target="_blank" rel="noreferrer">
+    <a class="contact-card" href="/Portfolio/CVs.pdf" target="_blank" rel="noreferrer">
       <img src="https://cdn-icons-png.flaticon.com/512/3135/3135789.png" alt="CV" class="icon" />
       Curriculum Vitae
     </a>
