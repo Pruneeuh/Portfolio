@@ -1,8 +1,14 @@
 
+<script>
+  import WomenPhoto from './assets/Women7-photo-journee.jpg'
+  import Women7Logo from './assets/women7_logo.png'
+  import CordeesLogo from './assets/cordees_logo.png'
+</script>
+
 <h1>Civil Engagement</h1>
-<h2>Women7</h2> 
+<h2>Women7</h2>
 <div style="display: flex; align-items: center; gap: 24px; margin-bottom: 16px;">
-  <img src="src/assets/Women7-photo-journee.jpg" alt="Photo Women7 journée" style="width: 350px; height: auto; border-radius: 8px; object-fit: cover; box-shadow: 0 2px 8px rgba(0,0,0,0.08);" />
+  <img src={WomenPhoto} alt="Photo Women7 journée" style="width: 350px; height: auto; border-radius: 8px; object-fit: cover; box-shadow: 0 2px 8px rgba(0,0,0,0.08);" />
   <p style="text-align: left; text-indent: 2em; margin: 0;"> 
   Women7 is a project created at ENSEEIHT aimed at promoting engeenering studies for young girls in secondary school. During this year, we will organize two days for fifty girls who will visit our school to learn about the various specialization options in engineering. The main objective is to motivate more girls to follow a scientific path. Today and as I have observed during my studies, too few women dare to pursue scientific education and attend engeering school, particularly in computer science. <br/> <br/>
 
@@ -12,7 +18,7 @@
 
 <div style="display: flex; justify-content: center; margin-top: 24px; margin-bottom: 40px;">
   <a href="https://www.enseeiht.fr/fr/l-enseeiht/women7.html" target="_blank" rel="noopener noreferrer">
-    <img src="src/assets/women7_logo.png" alt="Logo women7" style="width: 220px; height: auto;" />
+    <img src={Women7Logo} alt="Logo women7" style="width: 220px; height: auto;" />
   </a>
 </div>
 
@@ -24,9 +30,9 @@
 During this year I have done one intervention, with classmates from the INP and others universities of Toulouse, at a secondary school in Lectoure in order to present different profile of students</p>
 
 <div style="display: flex; justify-content: center; margin-top: 24px;">
-	<a href="https://www.cordeesdelareussite.fr/" target="_blank" rel="noopener noreferrer">
-		<img src="src/assets/cordees_logo.png" alt="Logo Cordées" style="width: 220px; height: auto;" />
-	</a>
+  <a href="https://www.cordeesdelareussite.fr/" target="_blank" rel="noopener noreferrer">
+    <img src={CordeesLogo} alt="Logo Cordées" style="width: 220px; height: auto;" />
+  </a>
 </div>
 
 <h2> Projects completed at ENSEEIHT </h2>
