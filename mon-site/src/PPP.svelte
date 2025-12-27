@@ -4,7 +4,6 @@
 </script>
 
 <h1>Personal Professional Project </h1>
-Here you can find my presentation : 
 <div style="display: flex; justify-content: center; margin-top: 32px; margin-bottom: 8px;">
   <iframe
     title="Cv"
