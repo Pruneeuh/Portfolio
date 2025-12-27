@@ -3,6 +3,8 @@
   import WomenPhoto from './assets/Women7-photo-journee.jpg'
   import Women7Logo from './assets/women7_logo.png'
   import CordeesLogo from './assets/cordees_logo.png'
+  import CDLLogo from './assets/CapitoleDuLibre.png'
+  import CDLPhoto from './assets/CDL_prune.jpeg'
 </script>
 
 <h1>Civil Engagement</h1>
@@ -32,6 +34,23 @@ During this year I have done one intervention, with classmates from the INP and 
 <div style="display: flex; justify-content: center; margin-top: 24px;">
   <a href="https://www.cordeesdelareussite.fr/" target="_blank" rel="noopener noreferrer">
     <img src={CordeesLogo} alt="Logo Cordées" style="width: 220px; height: auto;" />
+  </a>
+</div>
+
+<h2>Capitole du Libre </h2>
+<div style="display: flex; align-items: center; gap: 24px; margin-bottom: 16px;">
+ 
+  <p style="text-align: left;"> Le Capitole du Libre is a weekend dedicated to free software organised at ENSEEIHT with conferences and workshops. The event welcomed 1,200 participants in 2024.
+I helped organise this year's event as a staff member for TVn7. We filmed the various conferences and the round table discussion, then edited them so they could be broadcast afterwards. 
+</p>
+ <img src={CDLPhoto} class="image" alt="CDL Photo" style="width: 250px; height: auto; border-radius: 8px; object-fit: cover; box-shadow: 0 2px 8px rgba(0,0,0,0.08);" />
+</div>
+
+
+
+<div style="display: flex; justify-content: center; margin-top: 24px;">
+  <a href="https://capitoledulibre.org/" target="_blank" rel="noopener noreferrer">
+    <img src={CDLLogo} alt="Logo CDL" style="width: 400px; height: auto;" />
   </a>
 </div>
 
