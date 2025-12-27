@@ -6,10 +6,10 @@
 <h1>Personal Professional Project </h1>
 <div style="display: flex; justify-content: center; margin-top: 32px; margin-bottom: 8px;">
   <iframe
-    title="Cv"
+    title="PPP"
     src={PPP}
-    width="768"
-    height="432"
+    width="1000"
+    height="780"
     style="border: 1px solid #ddd;"
     allow="autoplay"
   ></iframe>
