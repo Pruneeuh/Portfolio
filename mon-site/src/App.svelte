@@ -4,7 +4,6 @@
   import EngineeringCourse from './Engineering_course.svelte'
   import CivilEngagment from './Civil_engagment.svelte'
   import Experience from './Experience.svelte';
-  import PPP from './PPP.svelte';
   import { onMount, onDestroy } from 'svelte';
 
   const routes = {
@@ -12,7 +11,6 @@
     '/engineering': EngineeringCourse,
     '/civil-engagment': CivilEngagment,
     '/experience': Experience,
-    '/ppp': PPP
   } 
 
   // variable qui indique si l'utilisateur a scrollé
@@ -39,7 +37,6 @@
     <a href="#/engineering" class="nav-link">Engineering course</a>
     <a href="#/civil-engagment" class="nav-link">Civil Engagment</a>
     <a href="#/experience" class="nav-link">Experience</a>
-    <a href="#/ppp" class="nav-link">PPP</a>
   </nav>
   <Router {routes} />
 </div>
