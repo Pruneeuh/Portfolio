@@ -7,7 +7,7 @@
   import CDLPhoto from './assets/CDL_prune.jpeg'
 </script>
 
-<h1>Civil Engagement</h1>
+<h1>Civic Engagement</h1>
 <h2>Women7</h2>
 <div style="display: flex; align-items: center; gap: 24px; margin-bottom: 16px;">
   <img src={WomenPhoto} class="image" alt="Women7 journée" style="width: 350px; height: auto; border-radius: 8px; object-fit: cover; box-shadow: 0 2px 8px rgba(0,0,0,0.08);" />
@@ -55,10 +55,10 @@ I helped organise this year's event as a staff member for TVn7. We filmed the va
 </div>
 
 <h2> Projects completed at ENSEEIHT </h2>
-<h3 style="text-align: left;">Civil engagment proposal team infographic : </h3>
+<h3 style="text-align: left;">Civic engagment proposal team infographic : </h3>
 
 <div style="display: flex; justify-content: center; margin-top: 32px; margin-bottom: 32px;">
-  <iframe title="Civil Engagement" src="https://drive.google.com/file/d/1Db1K3D5UsIIecrKdbx-7Dzk6DttixEoH/preview" width="640" height="480" allow="autoplay"></iframe>
+  <iframe title="Civic Engagement" src="https://drive.google.com/file/d/1Db1K3D5UsIIecrKdbx-7Dzk6DttixEoH/preview" width="640" height="480" allow="autoplay"></iframe>
 </div>
 
 <h3 style="text-align: left;">Disability Awareness Day team project : </h3>

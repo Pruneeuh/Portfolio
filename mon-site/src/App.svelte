@@ -2,14 +2,14 @@
   import Router from 'svelte-spa-router'
   import Home from './Home.svelte'
   import EngineeringCourse from './Engineering_course.svelte'
-  import CivilEngagment from './Civil_engagment.svelte'
+  import CivicEngagment from './Civic_engagment.svelte'
   import Experience from './Experience.svelte';
   import { onMount, onDestroy } from 'svelte';
 
   const routes = {
     '/': Home,
     '/engineering': EngineeringCourse,
-    '/civil-engagment': CivilEngagment,
+    '/civic-engagment': CivicEngagment,
     '/experience': Experience,
   } 
 
@@ -35,7 +35,7 @@
   <nav class="navbar" class:scrolled={scrolled}>
     <a href="#/" class="nav-link">Accueil</a>
     <a href="#/engineering" class="nav-link">Engineering course</a>
-    <a href="#/civil-engagment" class="nav-link">Civil Engagment</a>
+    <a href="#/civic-engagment" class="nav-link">Civic Engagment</a>
     <a href="#/experience" class="nav-link">Experience</a>
   </nav>
   <Router {routes} />
